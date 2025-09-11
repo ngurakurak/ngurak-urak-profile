@@ -71,26 +71,31 @@ const galleryData = [
     image: 'image/umkm/warung-bu-rini.jpg',
   },
 
-  // Fasilitas
+  // Pemandangan
   {
     id: 16,
-    category: 'fasilitas',
+    category: 'pemandangan',
     image: 'image/pemandangan/IMG_2432.jpg',
   },
   {
     id: 17,
-    category: 'fasilitas',
+    category: 'pemandangan',
     image: 'image/pemandangan/IMG_2443.jpg',
   },
   {
     id: 18,
-    category: 'fasilitas',
+    category: 'pemandangan',
     image: 'image/pemandangan/IMG_2444.jpg',
   },
   {
     id: 19,
-    category: 'fasilitas',
+    category: 'pemandangan',
     image: 'image/pemandangan/IMG_2447.jpg',
+  },
+  {
+    id: 25,
+    category: 'pemandangan',
+    image: 'image/pemandangan/IMG_5085.jpg',
   },
 
   // Kegiatan
@@ -160,7 +165,7 @@ function getCategoryLabel(category) {
     pertanian: 'Pertanian',
     peternakan: 'Peternakan',
     umkm: 'UMKM',
-    fasilitas: 'Fasilitas',
+    pemandangan: 'Pemandangan',
     kegiatan: 'Kegiatan',
   };
   return labels[category] || category;
