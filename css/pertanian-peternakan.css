@@ -1,0 +1,210 @@
+:root {
+      --primary-green: #2E7D32;
+      --light-green: #C8E6C9;
+      --accent-gold: #FFB300;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+    }
+
+    .navbar {
+      background: linear-gradient(135deg, var(--primary-green), #388E3C);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 1rem 0;
+    }
+
+    .navbar-brand {
+      font-weight: 600;
+      color: white !important;
+      font-size: 1.4rem;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .nav-link:hover {
+      color: var(--accent-gold) !important;
+    }
+
+    .page-header {
+      background: linear-gradient(135deg, var(--primary-green), #66BB6A);
+      color: white;
+      padding: 120px 0 60px;
+    }
+
+    .breadcrumb-custom {
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+    }
+
+    .breadcrumb-custom a {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+    }
+
+    .breadcrumb-custom .active {
+      color: white;
+    }
+
+    .page-title {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .page-subtitle {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      margin-bottom: 0;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--primary-green);
+      margin-bottom: 3rem;
+      position: relative;
+    }
+
+    .section-title:after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 4px;
+      background: var(--accent-gold);
+      border-radius: 2px;
+    }
+
+    .service-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      overflow: hidden;
+      height: 100%;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .service-image {
+      height: 200px;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .service-content {
+      padding: 1.5rem;
+    }
+
+    .service-title {
+      font-weight: 600;
+      color: var(--primary-green);
+      margin-bottom: 1rem;
+    }
+
+    .service-description {
+      color: #666;
+      margin-bottom: 0;
+    }
+
+    .gallery-item {
+      height: 250px;
+      border-radius: 15px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .gallery-item:hover {
+      transform: scale(1.05);
+    }
+
+    .gallery-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+      color: white;
+      padding: 2rem 1.5rem 1.5rem;
+      transform: translateY(100%);
+      transition: all 0.3s ease;
+    }
+
+    .gallery-item:hover .gallery-overlay {
+      transform: translateY(0);
+    }
+
+    .footer {
+      background: linear-gradient(135deg, var(--primary-green), #1B5E20);
+      padding: 2rem 0;
+      margin-top: 4rem;
+    }
+
+    .info-section {
+      background: #f8f9fa;
+      padding: 4rem 0;
+    }
+
+    .info-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+      margin-bottom: 2rem;
+    }
+
+    .calendar-item {
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .calendar-month {
+      background: var(--primary-green);
+      color: white;
+      width: 80px;
+      height: 60px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      margin-right: 1rem;
+    }
+
+    .stats-card {
+      text-align: center;
+      padding: 2rem;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+      margin-bottom: 2rem;
+    }
+
+    .stats-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--primary-green);
+    }
+
+    .stats-label {
+      color: #666;
+      font-weight: 500;
+    }
