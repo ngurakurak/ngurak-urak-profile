@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layanan UMKM - Padukuhan Ngurak-Urak</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/umkm.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="fas fa-leaf me-2"></i>Padukuhan Ngurak-Urak
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#home">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#profile">Profil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html#ekonomi">Ekonomi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#gallery">Galeri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#contact">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <nav aria-label="breadcrumb" class="breadcrumb-custom">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+              <li class="breadcrumb-item active">Layanan UMKM</li>
+            </ol>
+          </nav>
+          <h1 class="page-title">Layanan UMKM</h1>
+          <p class="page-subtitle">Mendukung usaha mikro, kecil, dan menengah untuk kemajuan ekonomi masyarakat
+            Padukuhan Ngurak-Urak</p>
+        </div>
+        <div class="col-lg-4 text-center">
+          <i class="fas fa-store" style="font-size: 6rem; color: rgba(255,255,255,0.3);"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UMKM Statistics -->
+  <section class="stats-umkm">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-6 col-md-6 mb-4">
+          <div class="animate-on-scroll">
+            <span class="stat-number" data-count="8">0</span>
+            <div class="stat-label">Total UMKM Aktif</div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-4">
+          <div class="animate-on-scroll">
+            <span class="stat-number" data-count="3">0</span>
+            <div class="stat-label">Jenis Usaha</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UMKM Grid -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">UMKM Padukuhan Ngurak-Urak</h2>
+
+      <div class="row">
+        <!-- UMKM 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="umkm-card animate-on-scroll">
+            <div class="umkm-image">
+              <img src="image/umkm/mecca-laundry.jpg" alt="Mecca Laundry" />
+            </div>
+            <div class="umkm-content">
+              <h3 class="umkm-title">Mecca Laundry</h3>
+              <p class="umkm-description">
+                Laundry sekaligus menyediakan burger, tempura, dan kue kering saat Ramadhan.
+              </p>
+              <div class="umkm-details">
+                <div class="umkm-info">
+                  <i class="fas fa-user"></i>
+                  <span>Pemilik: Ibu Rika</span>
+                </div>
+                <div class="umkm-info">
+                  <i class="fas fa-phone"></i>
+                  <span>+62 812-3456-7891</span>
+                </div>
+                <button class="contact-btn" onclick="window.open('https://wa.me/6281234567890','_blank')">
+                  <i class="fab fa-whatsapp me-2"></i>Hubungi
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UMKM 2 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="umkm-card animate-on-scroll">
+            <div class="umkm-image">
+              <img src="image/umkm/rania-cake.jpg" alt="Rania Cake" />
+            </div>
+            <div class="umkm-content">
+              <h3 class="umkm-title">Rania Cake</h3>
+              <p class="umkm-description">
+                Menerima pesanan kue ulang tahun, bolu, brownies kukus, dan bucket kue sesuai order.
+              </p>
+              <div class="umkm-details">
+                <div class="umkm-info">
+                  <i class="fas fa-user"></i>
+                  <span>Pemilik: Ibu Limba</span>
+                </div>
+                <div class="umkm-info">
+                  <i class="fas fa-phone"></i>
+                  <span>+62 813-4567-8912</span>
+                </div>
+                <button class="contact-btn" onclick="window.open('https://wa.me/6281234567890','_blank')">
+                  <i class="fab fa-whatsapp me-2"></i>Hubungi
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UMKM 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="umkm-card animate-on-scroll">
+            <div class="umkm-image">
+              <img src="image/umkm/warung-bu-evri.jpg" alt="Warung Bu Evri" />
+            </div>
+            <div class="umkm-content">
+              <h3 class="umkm-title">Warung Bu Evri</h3>
+              <p class="umkm-description">
+                Warung buka 24 jam, menyediakan galon, gas, minuman kemasan, dan kebutuhan sehari-hari.
+              </p>
+              <div class="umkm-details">
+                <div class="umkm-info">
+                  <i class="fas fa-user"></i>
+                  <span>Pemilik: Ibu Evri</span>
+                </div>
+                <div class="umkm-info">
+                  <i class="fas fa-phone"></i>
+                  <span>+62 814-5678-9123</span>
+                </div>
+                <button class="contact-btn" onclick="window.open('https://wa.me/6281234567890','_blank')">
+                  <i class="fab fa-whatsapp me-2"></i>Hubungi
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UMKM 4 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="umkm-card animate-on-scroll">
+            <div class="umkm-image">
+              <img src="image/umkm/mebel-pak-witik.jpg" alt="Mebel Pak Witik" />
+            </div>
+            <div class="umkm-content">
+              <h3 class="umkm-title">Mebel Pak Witig</h3>
+              <p class="umkm-description">
+                Produksi pintu, lemari, meja kursi, serta layanan catering kue dan nasi box.
+              </p>
+              <div class="umkm-details">
+                <div class="umkm-info">
+                  <i class="fas fa-user"></i>
+                  <span>Pemilik: Pak Witik & Ibu Sutirah</span>
+                </div>
+                <div class="umkm-info">
+                  <i class="fas fa-phone"></i>
+                  <span>+62 815-6789-1234</span>
+                </div>
+                <button class="contact-btn" onclick="window.open('https://wa.me/6281234567890','_blank')">
+                  <i class="fab fa-whatsapp me-2"></i>Hubungi
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UMKM 5 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="umkm-card animate-on-scroll">
+            <div class="umkm-image">
+              <img src="image/umkm/warung-bu-rini.jpg" alt="Warung Bu Rini" />
+            </div>
+            <div class="umkm-content">
+              <h3 class="umkm-title">Warung Bu Rini</h3>
+              <p class="umkm-description">
+                Menjual kebutuhan kelontong, peyek, kerecek, ampyang gula jawa, dan keripik.
+              </p>
+              <div class="umkm-details">
+                <div class="umkm-info">
+                  <i class="fas fa-user"></i>
+                  <span>Pemilik: Ibu Rini</span>
+                </div>
+                <div class="umkm-info">
+                  <i class="fas fa-phone"></i>
+                  <span>+62 816-7891-2345</span>
+                </div>
+                <button class="contact-btn" onclick="window.open('https://wa.me/6281234567890','_blank')">
+                  <i class="fab fa-whatsapp me-2"></i>Hubungi
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="text-center">
+        <p class="text-light mb-0">&copy; 2025 Padukuhan Ngurak-Urak. Semua Hak Cipta Dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" id="scrollTop">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="js/umkm.js"></script>
+</body>
+
+</html>
