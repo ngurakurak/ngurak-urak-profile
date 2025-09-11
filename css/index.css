@@ -65,13 +65,20 @@ body {
 }
 
 /* Hero Section */
+/* Hero Section */
 .hero-section {
-  background: var(--gradient);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../image/pemandangan/IMG_5085.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
 .hero-section::before {
@@ -81,47 +88,81 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="rgba(255,255,255,0.1)" points="0,0 1000,300 1000,1000 0,700"/></svg>');
-  background-size: cover;
+  background: transparent;
+  z-index: 1;
 }
 
 .hero-content {
   position: relative;
   z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 700;
   color: white;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   animation: fadeInUp 1s ease-out;
+  line-height: 1.2;
 }
 
 .hero-subtitle {
-  font-size: 1.3rem;
-  color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 2.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   animation: fadeInUp 1s ease-out 0.2s both;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
 }
 
-.btn-custom {
-  background: rgba(255, 255, 255, 0.2);
-  border: 2px solid white;
-  color: white;
-  padding: 12px 30px;
-  border-radius: 50px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
-  animation: fadeInUp 1s ease-out 0.4s both;
+/* Responsive adjustments for hero */
+@media (max-width: 992px) {
+  .hero-title {
+    font-size: 3.2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    max-width: 500px;
+  }
+  
+  .hero-section {
+    background-attachment: scroll; /* Fixed background can cause issues on mobile */
+  }
 }
 
-.btn-custom:hover {
-  background: white;
-  color: var(--primary-green);
-  transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    max-width: 350px;
+  }
+  
+  .hero-content {
+    padding: 0 1rem;
+  }
 }
 
 /* Floating Elements */
@@ -185,7 +226,7 @@ body {
   }
 }
 
-/* Section Titles */
+/* Section Titles */z
 .section-title {
   font-size: 2.5rem;
   font-weight: 700;
