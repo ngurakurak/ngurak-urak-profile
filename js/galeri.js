@@ -24,103 +24,103 @@ const galleryData = [
 
   // Peternakan
   {
-    id: 7,
+    id: 21,
     category: 'peternakan',
     image: 'image/peternakan/IMG_2437.jpg',
   },
   {
-    id: 8,
+    id: 22,
     category: 'peternakan',
     image: 'image/peternakan/IMG_2438.jpg',
   },
   {
-    id: 9,
+    id: 23,
     category: 'peternakan',
     image: 'image/peternakan/IMG_2441.jpg',
   },
   {
-    id: 10,
+    id: 24,
     category: 'peternakan',
     image: 'image/peternakan/IMG_2455.jpg',
   },
 
   // UMKM
   {
-    id: 11,
+    id: 41,
     category: 'umkm',
     image: 'image/umkm/mebel-pak-witik.jpg',
   },
   {
-    id: 12,
+    id: 42,
     category: 'umkm',
     image: 'image/umkm/mecca-laundry.jpg',
   },
   {
-    id: 13,
+    id: 43,
     category: 'umkm',
     image: 'image/umkm/rania-cake.jpg',
   },
   {
-    id: 14,
+    id: 44,
     category: 'umkm',
     image: 'image/umkm/warung-bu-evri.jpg',
   },
   {
-    id: 15,
+    id: 45,
     category: 'umkm',
     image: 'image/umkm/warung-bu-rini.jpg',
   },
 
   // Pemandangan
   {
-    id: 16,
+    id: 61,
     category: 'pemandangan',
     image: 'image/pemandangan/IMG_2432.jpg',
   },
   {
-    id: 17,
+    id: 62,
     category: 'pemandangan',
     image: 'image/pemandangan/IMG_2443.jpg',
   },
   {
-    id: 18,
+    id: 63,
     category: 'pemandangan',
     image: 'image/pemandangan/IMG_2444.jpg',
   },
   {
-    id: 19,
+    id: 64,
     category: 'pemandangan',
     image: 'image/pemandangan/IMG_2447.jpg',
   },
   {
-    id: 25,
+    id: 65,
     category: 'pemandangan',
     image: 'image/pemandangan/IMG_5085.jpg',
   },
 
   // Kegiatan
   {
-    id: 20,
+    id: 81,
     category: 'kegiatan',
     image: 'image/kegiatan/halal-bihalal.jpeg',
   },
   {
-    id: 21,
+    id: 82,
     category: 'kegiatan',
     image: 'image/kegiatan/hari-jadi-desa-petir.jpg',
   },
   {
-    id: 22,
+    id: 83,
     category: 'kegiatan',
     image: 'image/kegiatan/kerja-bakti-membangun-gapura.jpg',
   },
   {
-    id: 23,
+    id: 84,
     category: 'kegiatan',
     image: 'image/kegiatan/pentas-seni-hari-jadi-desa-petir.jpeg',
   },
   {
-    id: 24,
+    id: 85,
     category: 'kegiatan',
     image: 'image/kegiatan/sepak-bola.jpg',
   },
